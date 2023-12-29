@@ -2,6 +2,7 @@
 <html lang="en">
 <?php
 include 'konek.php';
+//ami
 ?>
 <head>
     <meta charset="utf-8">
