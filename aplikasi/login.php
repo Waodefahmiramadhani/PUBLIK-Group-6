@@ -77,7 +77,7 @@ include 'konek.php';
         dirancang untuk memberikan pelayanan atau saluran bagi masyarakat khususnya di kota Kendari agar dapat
         melaporkan isu atau
         keresahan mereka terkait dengan berbagai pelayanan atau masalah tertentu. </p>
-      <a data-mdb-ripple-init class="btn btn-primary-2" href="#masuk" role="button">Publikasikan Laporanmu</a>
+      <a data-mdb-ripple-init class="btn btn-primary-2" href="#masuk" role="button">Selamat Ujian</a>
     </div>
   </section>
   <?php

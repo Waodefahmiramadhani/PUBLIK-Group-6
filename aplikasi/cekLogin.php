@@ -2,16 +2,17 @@
 //ami
 
 include 'konek.php';
-class userLogin extends Database implements eksekusiQuery//keywords implements adalah dari interface.
+class userLogin extends Database implements eksekusiQuery//keywords implements adalah dari interface->polimorphisme
 {
     public function __construct()
     
     {
         parent::__construct();
+        //memanggil construktor dari kelas induk 'database'
     }
 
     public function Query($nik)
-    //nah kenapa visibility nya saya beri visibility public karena nantinya method query ini akan di akses di luar kelas.
+    //nah kenapa (ENCAPSULATION)visibility nya saya beri visibility public karena nantinya method query ini akan di akses di luar kelas.
     {
         $konek = $this->getKonek();
         $query = mysqli_query($konek, "SELECT * FROM tb_user WHERE nik='$nik'");

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-#AULIYA AFIFAH ADNAN HAKIM_E1E122046
 include 'konek.php';
 ?>
 
@@ -62,15 +61,9 @@ include 'konek.php';
                         <img src="gambar/logo.png" alt=""
                             style="width: 300px; height: 200px; vertical-align: middle; max-width: 100%; max-height: 100%;">
                     </div>
-
                     <div>
                         <h2 style="text-align: center;"><span>LAPORAN YANG DITERIMA</span></h2>
                     </div>
-
-
-
-
-
                     <div class="row gy-4 mt-5">
                         <?php
                         class Pengaduan extends Database
