@@ -5,7 +5,7 @@ include 'konek.php';
 class userLogin extends Database implements eksekusiQuery//keywords implements adalah dari interface->polimorphisme
 {
     public function __construct()
-    
+    //ami,,,
     {
         parent::__construct();
         //memanggil construktor dari kelas induk 'database'
