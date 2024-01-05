@@ -1,5 +1,5 @@
 <?php
-//ami
+//amiii
 
 include 'konek.php';
 class userLogin extends Database implements eksekusiQuery//keywords implements adalah dari interface->polimorphisme
